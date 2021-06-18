@@ -6,16 +6,16 @@ const functions = require('./functions');
 // afterEach(() => closeDatabase());
 
 
-beforeAll(() => initDatabase());
-afterAll(() => closeDatabase());
+// beforeAll(() => initDatabase());
+// afterAll(() => closeDatabase());
 
-const initDatabase = () => console.log('Database Initialized...');
-const closeDatabase = () => console.log('Database Closed...');
+// const initDatabase = () => console.log('Database Initialized...');
+// const closeDatabase = () => console.log('Database Closed...');
 
 
 
 test('3 + 5 = 8', ()=>{
-    expect(functions.add(3,5)).toBe(7); //cach 1: goi ham o file khac
+    expect(functions.add(3,5)).toBe(8); //cach 1: goi ham o file khac
 });
 
 // test('3 + 5 != 7', ()=>{
