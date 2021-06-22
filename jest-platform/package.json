@@ -1,0 +1,24 @@
+{
+  "name": "jest_testing_basic",
+  "version": "1.0.0",
+  "description": "do some example",
+  "main": "index.js",
+  "author": "Thuy Vi",
+  "license": "MIT",
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "jest": "^27.0.4"
+  },
+  "scripts": {
+    "test": "jest",
+    "testwatch": "jest --watchAll"
+  },
+  "dependencies": {
+    "jest-changed-files": "^27.0.2",
+    "jest-diff": "^27.0.2",
+    "jest-docblock": "^27.0.1",
+    "jest-get-type": "^27.0.1",
+    "jest-validate": "^27.0.2",
+    "jest-worker": "^27.0.2"
+  }
+}
