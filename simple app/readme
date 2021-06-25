@@ -1,0 +1,7 @@
+Simple React app: color button
+test 
+  + button has correct initial color
+  + initial conditions
+  + Checkbox disables button on first click and enables on second click
+  + check background of button
+  + space before camel-case capital letters
